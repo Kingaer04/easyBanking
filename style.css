@@ -1,0 +1,187 @@
+body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.navbar {
+    padding: 1% 2%;
+    position: relative;
+    z-index: 3;
+}
+
+.ulist {
+    text-align: center;
+}
+
+.navbar-toggler {
+    outline: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.nav-item {
+    transition: "text-decoration 0.5s";
+}
+
+.nav-item:hover {
+    text-decoration: underline green;
+}
+
+.btn {
+    background: linear-gradient(to right,rgb(2, 189, 49),rgb(2, 199, 199));
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.header {
+    display: flex;
+    background-color: #fcfafa9d;
+    margin-bottom: -320px;
+    z-index: -1;
+}
+
+.first-back {
+    position: relative;
+    height: 900px;
+    width: 1000px; 
+    right: 8%;
+    top: -250px;
+}
+
+.phones {
+    position: absolute;
+    height: 800px;
+    width: 700px; 
+    z-index: 5;
+    top: -100px;
+    left: 13%;
+}
+
+.next-img {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    overflow: hidden; 
+}
+
+.next {
+    margin: 6% 30% 0 10%;
+    width: 28%;
+}
+
+.take {
+    opacity: 0.6;
+}
+
+.take, .digital, .down {
+    margin-bottom: 20px;
+}
+
+.middle {
+    position: relative;
+    background-color: #f3f3f3;
+    padding: 5% 0;
+}
+
+.leverage {
+    width: 35%;
+    margin: 50px 0;
+}
+
+.why {
+    margin-left: 10%;
+}
+
+.middle-second {
+    display: flex;
+    margin-left: 10%;
+}
+
+.mini-text {
+    width: 250px;
+    opacity: 0.5;
+}
+
+.middle-second-s {
+    margin-right: 10%;
+    margin-bottom: 100px;
+}
+
+.online {
+    margin: 10% 0px;
+}
+
+.third-part {
+    margin-right: 8%;
+}
+
+.third {
+    background-color: #fcfafa9d;
+}
+
+.third-s {
+    margin-top: 5%;
+}
+
+.by {
+    opacity: 0.5;
+    margin-top: 5%;
+    padding-top: 15%;
+}
+
+.third-third {
+    padding-left: 8%;
+    background-color: #fff;
+    position: relative;
+    top: -30px;
+    width: 120%;
+    padding-bottom: 5%;
+    /* margin-bottom: 100px; */
+    border-radius: 10px;
+}
+
+.image {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.mini-texts {
+    padding-bottom: 12%;
+}
+
+.fr {
+    background-color: rgb(37, 42, 90);
+    display: flex;
+    padding: 3% 0 3% 10%;
+}
+
+.facebook {
+    margin: 30px 10px 0px 0px;
+}
+
+.ref {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.us {
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.copy {
+    color: #fff;
+    margin-left: 5%;
+    margin-top: 20px;
+}
